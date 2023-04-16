@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@api/web/data-access-graphql": [
+        "libs/web/data-access-graphql/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
